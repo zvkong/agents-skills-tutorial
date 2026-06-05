@@ -54,6 +54,30 @@ This exercise introduces the most basic structure of an Agent Skill:
         └── SKILL.md
 ```
 
+
+## Resources
+
+This tutorial is designed to be beginner-friendly and self-contained. You can follow the exercises without reading all of the official documentation first.
+
+However, if you want to learn more about Agent Skills or a specific agent, such as Claude Code or Codex, the following resources are useful.
+
+### Official Agent Skills resources
+
+* [Agent Skills](https://agentskills.io/home)
+  A general introduction to what Agent Skills are and why they are useful.
+
+### Claude Code resources
+
+* [Claude: Introduction to Agent Skills](https://anthropic.skilljar.com/introduction-to-agent-skills)
+  A Claude-focused course on building, configuring, and sharing skills in Claude Code.
+
+### OpenAI resources
+
+* [OpenAI: Agent Skills for Codex](https://developers.openai.com/codex/skills)
+  OpenAI’s guide to using Agent Skills with Codex.
+
+You do not need to understand everything at once. The best way to learn Agent Skills is to build a small skill, test it, revise it, and then build another one.
+
 ## Status
 
 This tutorial is currently under construction.
