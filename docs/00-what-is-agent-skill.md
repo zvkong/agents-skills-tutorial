@@ -41,10 +41,24 @@ That guide is similar to an Agent Skill.
 
 An Agent Skill is a reusable package of instructions that teaches an agent how to perform a specific type of task in a specific way. A skill can tell the agent when to use it, what rules to follow, what output format to produce, and what resources or scripts are available.
 
-In this tutorial, we will start with a very simple skill: an email polisher. The goal is not to build something complicated. The goal is to understand the basic idea:
+In this tutorial, we will walk through several simple skill exercises to help you understand the basic idea:
 
 ```text
-A skill gives an agent task-specific instructions.
+A skill gives an agent task-specific mini-handbooks.
 ```
 
 Once you understand this idea, you can build skills for many different tasks, such as writing emails, generating Git commit messages, reviewing code, summarizing research papers, or preparing project reports.
+
+## What kind of work is suitable for an Agent Skill?
+
+Agent Skills are most useful when a task has repeated patterns, rules, or procedures.
+
+1. **Repeated instructions**
+
+   A skill is useful when you often find yourself repeating the same instructions to the agent. For example, you may repeatedly ask the agent to follow a specific output format, use a certain feedback structure, avoid changing the original meaning of a text, or organize results in a particular way. Instead of typing these rules again and again, you can put them into a skill.
+
+2. **Standard operating procedures**
+
+   A skill is also useful when your work has a standard operating procedure, or SOP. For example, if you review code using the same checklist every time, summarize papers using the same structure, or polish emails according to the same tone and format, these repeated procedures can become skills.
+
+In general, if you can describe your task as “when doing this type of work, always follow these rules,” then it is probably a good candidate for an Agent Skill.
