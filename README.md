@@ -1,4 +1,4 @@
-# Agents Skills Tutorial
+# Give Your Agent a Diploma
 
 A step-by-step tutorial for beginners who are unfamiliar with coding tools(like me), showing how to build, organize, and use their first Agent Skill.
 
@@ -21,6 +21,14 @@ By the end of this tutorial, you will understand:
 5. How to test whether an agent can use your skill
 6. How to build simple reusable skills for everyday tasks
 
+## Agent used in this tutorial
+
+To follow the principle of keeping this tutorial accessible and low-cost, the main demonstrations use Gemini as the default example agent, because Gemini currently provides a free tier or free quota for many basic use cases.
+
+However, this tutorial is not limited to Gemini. If you already have access to Codex or Claude Code, you can also use Codex or Claude Code as your agent. The basic workflow is similar: you create a skill folder, write a `SKILL.md` file, open the project in your agent environment, and test whether the agent follows the skill instructions.
+
+When the setup differs across agents, this tutorial will provide separate steps and commands for Gemini, Codex, and Claude Code.
+
 ## Tutorial structure
 
 This tutorial is organized around small exercises. Each exercise introduces one practical skill and one important design principle.
@@ -39,19 +47,6 @@ docs/        Explanations of key concepts
 exercises/   Step-by-step skill-building exercises
 templates/   Reusable skill templates
 notes/       Glossary and extra notes
-```
-
-## First goal
-
-The first goal is to build a simple `email-polisher` skill. This skill will help rewrite rough emails into polite, clear, and professional messages.
-
-This exercise introduces the most basic structure of an Agent Skill:
-
-```text
-.agents/
-└── skills/
-    └── email-polisher/
-        └── SKILL.md
 ```
 
 
